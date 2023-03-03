@@ -1,0 +1,20 @@
+Juego de ajedrez para almacenar movimientos de defensa de los jugadores.
+
+De acuerdo a la investigación realizada de la temática, la problemática planteada sería que en un juego 
+ajedrez se busque la manera de almacenar los movimientos de defensa de una partida, con lo cual se quiere 
+poder consultar de manera rápida las jugadas sus respectivas respuestas defensivas para así lograr tomar 
+decisiones estratégicas para la partida.
+
+Una forma para darle solución a dicho problema es la utilización de árboles binarios con el fin almacenar 
+los movimientos defensivos del jugador. Mediante esto, cada nodo del árbol representa una posible jugada, 
+mientras que las ramas del nodo representan las respuestas defensivas del jugador. Cada nodo tendrá dos hijos, 
+uno para la jugada principal y otro para la respuesta defensiva. Si en la jugada principal se encuentra un 
+movimiento que ya ha sido jugado en otra partida, se seguirá la rama correspondiente y se llegará al nodo de 
+respuesta defensiva. De esta manera, se podrá consultar rápidamente la defensa necesaria y así aplicar la mejor 
+estrategia en función de las jugadas del oponente. Por lo tanto, se puede concluir que utilizar árboles binarios 
+para almacenar los movimientos de defensa en una partida de ajedrez es una solución eficiente para este problema, 
+ya que permite una rápida consulta de las jugadas anteriores y sus respuestas defensivas.
+
+La temática “Juego de ajedrez para almacenar movimientos de defensa de los jugadores” es de interés para el grupo
+debido a que se piensa que durante un juego de ajedrez para los movimientos defensivos se necesita de planificación 
+y estrategia lo cual lo hace entretenido, además de que es un ejemplo útil para una codificación con árboles.
