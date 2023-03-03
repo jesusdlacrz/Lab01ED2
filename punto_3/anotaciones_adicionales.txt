@@ -1,0 +1,18 @@
+
+La desorganización en los presupuetos de las empresas.
+
+
+En muchas ocasiones las empresas tienen problemas de organización en cuanto a presupuestos se refiere. Ya sea a razón de una mala gestión
+del mismo, para diferentes categorías. Para atacar esta problemática, podríamos usar un árbol binario, en el que se almacene cada categoría,
+con su respectivo presupuesto. Y así, poder tener claro, cuánto dinero se está invirtiendo en cada categoría.
+
+
+¿Cómo funciona el programa?
+
+Agregamos Nodos al árbol con la función "add_node". Ésta pedirá como parametro la categoría (en este caso una variable de tipo cadena), y 
+el monto del presupuesto en esa categoría. NOTA: Los números decimales, luego del punto en cada monto, simbolizan una KEY, que hacen único 
+el monto; con lo cuál se podrá eliminar el Nodo, si se desea editar. 
+
+Veáse el archivo "code_to_run.py", para visualizar ejemplos de uso.
+
+Podremos añadir presupuestos con sus categorías al árbol. Y a su vez eliminar. Es decir, es completamente editable.
